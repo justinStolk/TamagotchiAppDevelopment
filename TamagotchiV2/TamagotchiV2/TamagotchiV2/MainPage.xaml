@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:tamagotchiv2="clr-namespace:TamagotchiV2"
+             x:Class="TamagotchiV2.MainPage">
+
+    <StackLayout>
+        <tamagotchiv2:CreatureView x:Name="myView"/>
+        <Grid ColumnDefinitions="auto, auto, auto" RowDefinitions="auto, auto">
+            <Button Text="To Food Page" Clicked="OnFoodButtonClicked" Grid.Row="0" Grid.Column="0"/>
+            
+            
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
